@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical" >
+
+
+<!--
+<Button
+        android:id="@+id/button01"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="일반적인경우"
+        android:textStyle="bold"
+        android:backgroundTint="@color/teal_200"
+        android:onClick="onButtonClicked"
+        />
+
+    <Button
+        android:id="@+id/button02"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="padding 사용"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:onClick="onButtonClicked2"
+        />
+
+    <Button
+        android:id="@+id/button03"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="gravity 사용"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:onClick="onButtonClicked3"
+        />
+
+    <Button
+        android:id="@+id/button04"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="weight 사용"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:textColor="@color/red"
+        android:background="@color/yellow"
+        android:onClick="onButtonClicked4"
+        />
+
+    <Button
+        android:id="@+id/button05"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:text="베이스라인 사용하기"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:onClick="onButtonClicked5" />
+
+    <Button
+        android:id="@+id/button06"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+
+        android:text="gravity : left|top"
+        android:textSize="14dp"
+        android:textStyle="bold"
+
+        android:onClick="onButtonClicked6"
+        />
+-->
+
+    <Button
+        android:id="@+id/button07"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+
+        android:text="gravity : center_vertical|center_horizontal"
+        android:textSize="14dp"
+        android:textStyle="bold"
+
+        android:onClick="onButtonClicked7"
+        />
+
+    <Button
+        android:id="@+id/button08"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+
+        android:text="자바코드로 만들기"
+        android:textSize="14dp"
+        android:textStyle="bold"
+
+        android:onClick="onButtonClicked8"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="오른쪽" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="중앙" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="왼쪽" />
+
+    </LinearLayout>
+
+</LinearLayout>
