@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#f9cccc33"
+    android:stretchColumns="2,3,4"
+    >
+
+    <View
+            android:layout_height="5dp"
+            android:background="@color/purple_700"
+            />
+    <View
+        android:layout_height="5dp"
+        android:background="@color/black"
+        />
+    <TableRow android:layout_height="match_parent">
+        <TextView
+            android:text="ID"
+            android:background="#FFEB3B"/>
+        <EditText
+            android:id="@+id/editId"
+            android:background="@color/white"
+            android:layout_width="70dp"/>
+
+    </TableRow>
+
+    <View
+        android:layout_height="5dp"
+        android:background="@color/purple_700"
+        />
+    <TableRow android:layout_height="match_parent">
+        <TextView
+            android:text="PW"
+            android:background="#FFEB3B"/>
+        <EditText
+            android:id="@+id/editPw"
+            android:background="@color/white"
+            android:layout_width="70dp"/>
+    </TableRow>
+    <View
+        android:layout_height="5dp"
+        android:background="@color/purple_700"
+        />
+
+    <TableRow android:layout_height="match_parent">
+        <TextView
+            android:text="이름"
+            android:background="#FFEB3B"/>
+        <EditText
+            android:id="@+id/editName"
+            android:background="@color/white"
+            android:layout_span="2"
+            />
+    </TableRow>
+    <View
+        android:layout_height="5dp"
+        android:background="@color/purple_700"
+        />
+
+    <TableRow android:layout_height="match_parent">
+        <TextView
+            android:text="전화"
+            android:background="#FFEB3B"/>
+        <EditText
+            android:id="@+id/editTel"
+            android:background="@color/white"
+            android:layout_span="2"
+            />
+    </TableRow>
+    <View
+        android:layout_height="5dp"
+        android:background="@color/purple_700"
+        />
+
+    <TableRow android:layout_height="match_parent">
+        <TextView
+            android:text="이메일"
+            android:background="#FFEB3B"/>
+        <EditText
+            android:id="@+id/editEmail"
+            android:background="@color/white"
+            android:layout_span="2"
+            />
+    </TableRow>
+    <View
+        android:layout_height="5dp"
+        android:background="@color/purple_700"
+        />
+    <TableRow>
+        <Button
+            android:id="@+id/login"
+            android:layout_column="2"
+            android:backgroundTint="@color/teal_200"
+            android:textColor="@color/white"
+            android:text="로그인"
+            android:textSize="16dp"
+            />
+        <Button
+            android:id="@+id/cancle"
+            android:layout_column="2"
+            android:backgroundTint="@color/teal_200"
+            android:textColor="@color/white"
+            android:text="취소"
+            android:textSize="16dp"
+            />
+    </TableRow>
+    <View
+        android:layout_height="5dp"
+        android:background="@color/black"
+        />
+    <View
+        android:layout_height="5dp"
+        android:background="@color/purple_700"
+        />
+
+</TableLayout>
