@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/button01"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="텍스트뷰사용"
+
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:onClick="onButtonClicked01"
+        />
+
+    <Button
+        android:id="@+id/button02"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="버튼사용"
+
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:onClick="onButtonClicked02"
+        />
+
+    <Button
+        android:id="@+id/button03"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="EditText사용하기"
+
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:onClick="onButtonClicked03"
+        />
+
+</LinearLayout>
