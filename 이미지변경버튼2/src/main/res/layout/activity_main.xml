@@ -7,44 +7,39 @@
 
     <Button
         android:id="@+id/button01"
-        android:layout_width="200dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="텍스트뷰사용"
+        android:gravity="center"
 
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="20dp"
-
-        android:textSize="18dp"
-        android:textStyle="bold"
+        android:text="이미지바꾸어 보여주기"
         android:onClick="onButtonClicked01"
         />
 
-    <Button
-        android:id="@+id/button02"
-        android:layout_width="200dp"
+
+
+    <!-- 수직 스크롤바를 위한 스크롤뷰-->
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="버튼사용"
+        >
 
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="20dp"
+        <ScrollView
+            android:id="@+id/scrollView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
 
-        android:textSize="18dp"
-        android:textStyle="bold"
-        android:onClick="onButtonClicked02"
-        />
+            <!--이미지를 보여주는 이미지뷰-->
+            <ImageView
+                android:id="@+id/imageView01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </ImageView>
 
-    <Button
-        android:id="@+id/button03"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:text="EditText사용하기"
+        </ScrollView>
 
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="20dp"
 
-        android:textSize="18dp"
-        android:textStyle="bold"
-        android:onClick="onButtonClicked03"
-        />
+    </HorizontalScrollView>
+
+
 
 </LinearLayout>
