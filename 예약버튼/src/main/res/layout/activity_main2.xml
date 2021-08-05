@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <AnalogClock
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <DigitalClock
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" />
+
+    <!--시간측정-->
+    <Chronometer
+        android:id="@+id/chronometer1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:format="시간 측정 : %s"
+        android:gravity="center"
+        android:textSize="30dp" />
+
+    <!--오전,오후/ 시/분 선택창-->
+    <TimePicker
+        android:timePickerMode="spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!--년/월/일 선택창-->
+    <DatePicker
+        android:datePickerMode="spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>
